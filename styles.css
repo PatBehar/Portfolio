@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&family=DM+Sans:wght@400;500&display=swap');
+
+:root {
+  --pink: #FF005E;
+  --cyan: #00EFFF;
+  --ink: #111111;
+  --paper: #FFFFFF;
+  --muted: #6b6b66;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.55;
+}
+
+h1, h2, h3, .brand {
+  font-family: 'League Spartan', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #f0f0ee;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: var(--ink);
+  text-decoration: none;
+  margin-left: 1.75rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover { color: var(--pink); }
+
+.hero {
+  padding: 4rem 2rem 2rem;
+  max-width: 780px;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--cyan);
+  color: var(--ink);
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.02em;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+.hero p.lede {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--pink);
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1.25rem;
+}
+
+.btn:hover { opacity: 0.88; }
+
+.btn-outline {
+  display: inline-block;
+  background: transparent;
+  color: var(--ink);
+  border: 1.5px solid var(--ink);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-left: 0.75rem;
+}
+
+.section {
+  padding: 2rem 2rem 3rem;
+  max-width: 900px;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.section p.intro {
+  color: var(--muted);
+  max-width: 65ch;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  display: block;
+  border: 1px solid #ececea;
+  border-radius: 12px;
+  padding: 1.75rem;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 0.15s ease;
+}
+
+.card:hover { border-color: var(--pink); }
+
+.card img.logo {
+  height: 36px;
+  margin-bottom: 1rem;
+}
+
+.status {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--pink);
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 { margin: 0.25rem 0 0.6rem; font-size: 1.2rem; }
+.card p { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.95rem; }
+.card .log-line { font-size: 0.85rem; color: var(--ink); }
+.card .log-line strong { color: var(--pink); }
+
+footer {
+  padding: 2.5rem 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid #f0f0ee;
+  margin-top: 2rem;
+}
+
+.uc-wrap {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 700px;
+}
