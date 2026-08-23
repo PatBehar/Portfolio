@@ -1,51 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marco Behar — Building AI Products, Live</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#00EFFF" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src https://patbehar.github.io; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+    />
+    <meta name="description" content="Marco Behar — Senior operations leader building AI-enabled products and systems." />
+    <title>Marco Behar — Operations × AI × Product</title>
+    <link rel="icon" href="assets/marco-behar-monogram-pink-cyan.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700;800&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=pdf-implementation-24" />
+  </head>
+  <body>
+    <span class="cursor-dot" data-cursor aria-hidden="true"></span>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<nav>
-  <a class="brand" href="index.html">Marco Behar</a>
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
+    <header class="site-header" data-site-header>
+      <div class="header-glass">
+        <a class="brand-lockup" href="index.html#top" aria-label="Marco Behar home">
+          <img src="assets/marco-behar-monogram-pink-cyan.png" alt="Marco Behar" width="744" height="516" fetchpriority="high" />
+        </a>
 
-<section class="hero">
-  <span class="tag">Week 5 of 10 — building in public</span>
-  <h1>Every project here is me learning AI by shipping something real.</h1>
-  <p class="lede">No developers, no product team — I use AI to design, build, and launch real products, and I document every decision along the way.</p>
-  <a class="btn" href="https://www.linkedin.com/in/marcobehar/">Message me on LinkedIn</a>
-</section>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a class="is-active" href="index.html#top" data-nav-id="top" data-copy="nav.home" aria-current="page">Home</a>
+          <a href="#about" data-copy="nav.about">About</a>
+          <a href="#projects" data-copy="nav.projects">Projects</a>
+          <a href="#contact" data-copy="nav.contact">Contact</a>
+        </nav>
 
-<section class="section">
-  <h2>Featured: AmpAI</h2>
-  <p class="intro">An AI adoption platform I'm building end-to-end, live, as the main proof behind this portfolio.</p>
-  <a class="card" href="projects/ampai.html">
-    <span class="status">MVP phase</span>
-    <h3>AmpAI</h3>
-    <p>I don't code — but I'm building a real AI adoption company by getting AI to do the technical work with me, not for me.</p>
-    <span class="log-line"><strong>Latest decision:</strong> defined what this portfolio proves, and why AmpAI is the evidence, not the destination.</span>
-  </a>
-</section>
+        <div class="header-actions">
+          <div class="language-switch" role="group" aria-label="Language">
+            <button type="button" class="language-button is-active" data-language="en" aria-pressed="true">ENG</button>
+            <span aria-hidden="true">|</span>
+            <button type="button" class="language-button" data-language="es" aria-pressed="false">SPA</button>
+          </div>
 
-<section class="section">
-  <h2>All Projects</h2>
-  <p class="intro">Everything I'm building, with the reasoning behind each decision.</p>
-  <a class="btn-outline" href="projects.html">See all projects →</a>
-</section>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+            <span></span>
+            <span></span>
+            <span class="sr-only" data-copy="nav.open">Open navigation</span>
+          </button>
+        </div>
+      </div>
+    </header>
 
-<footer>
-  Built with AI, directed by Marco Behar. No developers, no product team.
-  <br><a href="https://www.linkedin.com/in/marcobehar/" style="color:var(--pink);">Let's talk on LinkedIn →</a>
-</footer>
+    <main id="main">
+      <section class="stage hero" id="top" aria-labelledby="hero-title">
+        <div class="page-shell stage-inner hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow--plain" data-copy="hero.eyebrow">MY PORTFOLIO — MARCO BEHAR</p>
+            <h1 id="hero-title" data-copy-html="hero.headline">I Build <span class="accent">AI-enabled</span><br />Products around real<br />business problems.</h1>
+            <p class="hero-description" data-copy="hero.body">I've spent 20+ years leading complex operations and transformation. Today I apply AI, automation, and product thinking to build practical systems around real business problems.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects" data-copy="hero.primaryCta">Explore my work</a>
+              <a class="button button-secondary linkedin-button" href="https://linkedin.com/in/marcobehar" target="_blank" rel="noopener noreferrer">
+                <span class="linkedin-mark" aria-hidden="true">in</span>
+                <span data-copy="hero.secondaryCta">Let's talk</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</body>
+      <section class="stage about-section" id="about" aria-labelledby="about-title">
+        <div class="page-shell stage-inner about-inner">
+          <div class="about-copy">
+            <p class="eyebrow" data-copy="about.eyebrow">ABOUT</p>
+            <h2 id="about-title" data-copy-html="about.title">Hello, I'm <span class="accent">Marco Behar.</span></h2>
+            <div class="about-body">
+              <p data-copy="about.bodyOne">I'm an operations, business transformation, and AI enablement leader with 20+ years of experience leading complex teams, enterprise clients, technology implementations, and performance improvement across global operations.</p>
+              <p data-copy="about.bodyTwo">My strength is turning messy business problems into better ways of working. AI has expanded what I can build myself — from applications and agents to workflows, automations, and working prototypes.</p>
+            </div>
+            <p class="about-statement" data-copy="about.statement">I learn AI by shipping something real.</p>
+          </div>
+          <figure class="about-photo">
+            <img src="assets/marco-about-photo.jpg" alt="Marco Behar at an outdoor event" width="960" height="1280" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="stage capabilities-section" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="page-shell stage-inner capabilities-inner">
+          <div class="capabilities-heading">
+            <p class="eyebrow" data-copy="capabilities.eyebrow">WHAT I BUILD</p>
+            <h2 id="capabilities-title" data-copy="capabilities.title">From business problem to working systems.</h2>
+            <p class="section-deck" data-copy="capabilities.context">Built from 20+ years leading operations, transforming, and technology implementations.</p>
+          </div>
+          <div class="capabilities-list" id="capabilities-list"></div>
+        </div>
+      </section>
+
+      <section class="stage method-section" id="method" aria-labelledby="method-title">
+        <div class="page-shell stage-inner method-inner">
+          <div class="method-heading">
+            <p class="eyebrow" data-copy="method.eyebrow">HOW I BUILD</p>
+            <h2 id="method-title" data-copy="method.title">START WITH THE WORK,<br />NOT THE TECHNOLOGY.</h2>
+          </div>
+          <div class="method-rule" aria-hidden="true"></div>
+          <ol class="method-list" id="method-list"></ol>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="project-stage projects-intro">
+          <div class="page-shell stage-inner projects-intro-inner">
+            <p class="eyebrow" data-copy="projects.eyebrow">FEATURE BUILDS</p>
+            <h2 id="projects-title" data-copy="projects.title">PRODUCTS, WORKFLOWS,<br />AND EXPERIMENTS BUILT<br />AROUND REAL PROBLEMS.</h2>
+            <p class="section-deck" data-copy="projects.intro">I use AI to move from problem to working solutions, documenting the reasoning, architecture, decisions, and next iteration along the way. The following are some of my work done through applying learning.</p>
+          </div>
+        </div>
+        <div class="projects-list" id="projects-list"></div>
+      </section>
+
+      <section class="stage learning-section" id="learning" aria-labelledby="learning-title">
+        <div class="page-shell stage-inner learning-inner">
+          <div class="learning-lead">
+            <p class="eyebrow" data-copy="learning.eyebrow">CONTINUOUS LEARNING</p>
+            <h2 id="learning-title" data-copy="learning.title">BUILDING<br />PRACTICAL AI<br />CAPABILITY.</h2>
+          </div>
+          <div class="learning-content">
+            <p class="learning-body" data-copy="learning.body">Continuous learning across AI platforms, agentic workflows, AI engineering, and Forward Deployed approaches.</p>
+            <div class="learning-rule" aria-hidden="true"></div>
+            <div class="learning-list" id="learning-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stage bring-section" id="what-i-bring" aria-labelledby="bring-title">
+        <div class="page-shell stage-inner bring-inner">
+          <div class="bring-lead">
+            <p class="eyebrow" data-copy="bring.eyebrow">THE DIFFERENCE</p>
+            <h2 id="bring-title" data-copy="bring.title">WHAT I BRING.</h2>
+          </div>
+          <div class="bring-list" id="bring-list"></div>
+        </div>
+      </section>
+
+      <section class="stage contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="page-shell stage-inner contact-inner">
+          <div class="contact-lead">
+            <p class="eyebrow" data-copy="contact.eyebrow">CONTACT</p>
+            <h2 id="contact-title" data-copy="contact.title">LET'S<br />BUILD</h2>
+          </div>
+          <div class="contact-details">
+            <p class="contact-body" data-copy="contact.body">Interested in participating in roles and projects at the intersection of operations, AI product and transformation.</p>
+            <div class="contact-rule" aria-hidden="true"></div>
+            <p class="contact-talk" data-copy="contact.talk">Let's talk.</p>
+            <a class="contact-link" href="https://linkedin.com/in/marcobehar" target="_blank" rel="noopener noreferrer" data-copy="contact.linkedinLabel">linkedin.com/in/marcobehar</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="game-modal" data-game-modal hidden role="dialog" aria-modal="true" aria-labelledby="game-modal-title">
+      <div class="game-modal-backdrop" data-game-close></div>
+      <div class="game-modal-panel">
+        <div class="game-modal-header">
+          <h2 id="game-modal-title" data-copy="hero.modalTitle">Vector Chaos</h2>
+          <button type="button" class="modal-close" data-game-close aria-label="Close Vector Chaos">×</button>
+        </div>
+        <div class="modal-game-frame">
+          <iframe
+            class="game-iframe"
+            src="https://patbehar.github.io/QuantChaos/"
+            title="Vector Chaos interactive build"
+            loading="lazy"
+            allow="fullscreen"
+            allowfullscreen
+            sandbox="allow-scripts allow-same-origin allow-pointer-lock"
+            referrerpolicy="no-referrer"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="content.js?v=pdf-implementation-2"></script>
+    <script src="script.js?v=pdf-implementation-15"></script>
+  </body>
 </html>
