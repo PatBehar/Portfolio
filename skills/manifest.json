@@ -1,0 +1,91 @@
+{
+  "exportType": "source-grounded Markdown derivative",
+  "originalV1ZipParity": "unverified",
+  "llmBehaviorTest": "not run on these exports",
+  "skills": [
+    {
+      "locale": "en",
+      "name": "ai-opportunity-mapper",
+      "path": "/skills/en/ai-opportunity-mapper/SKILL.md",
+      "bytes": 3472,
+      "sha256": "11da6fba419111e8450ec8639b24bdc4526f7cee1b33baad8495efb945af6b7e"
+    },
+    {
+      "locale": "en",
+      "name": "workflow-to-agent-blueprint",
+      "path": "/skills/en/workflow-to-agent-blueprint/SKILL.md",
+      "bytes": 3413,
+      "sha256": "c1149151a7d081c44b1aac97b2474b40bb12ddf73f0b7250d85e18892e21689d"
+    },
+    {
+      "locale": "en",
+      "name": "enterprise-implementation",
+      "path": "/skills/en/enterprise-implementation/SKILL.md",
+      "bytes": 3411,
+      "sha256": "9d0910d8b5fbbee220b204c910b6699c282b125004186d326b4fd2c948ada739"
+    },
+    {
+      "locale": "en",
+      "name": "operations-intelligence",
+      "path": "/skills/en/operations-intelligence/SKILL.md",
+      "bytes": 3316,
+      "sha256": "1b0e0d5f2e43a63f02acda409b8852fd1b8f5199d99b29bfb947566f2a33f1f4"
+    },
+    {
+      "locale": "en",
+      "name": "agent-evaluation-qa",
+      "path": "/skills/en/agent-evaluation-qa/SKILL.md",
+      "bytes": 3610,
+      "sha256": "3b89a395cb4d21e8dc6b3644cc07b49718b2c428f66dec88b36b490dbe6c9960"
+    },
+    {
+      "locale": "en",
+      "name": "ai-adoption-playbook",
+      "path": "/skills/en/ai-adoption-playbook/SKILL.md",
+      "bytes": 3451,
+      "sha256": "1eb6f254e6ae64249cb3691bed9e5771a596ce210359238d864c40cb4c07a6f2"
+    },
+    {
+      "locale": "es",
+      "name": "ai-opportunity-mapper",
+      "path": "/skills/es/ai-opportunity-mapper/SKILL.md",
+      "bytes": 3953,
+      "sha256": "f3f9e4ffdefa3d5821b60730e32b6df2cbf2fe6f42ac1fe2d0dbb200ff164f8d"
+    },
+    {
+      "locale": "es",
+      "name": "workflow-to-agent-blueprint",
+      "path": "/skills/es/workflow-to-agent-blueprint/SKILL.md",
+      "bytes": 3853,
+      "sha256": "c7a92a04f12b42696930e00a73d0699a8291361f917a10a8b850d133e49cb5e4"
+    },
+    {
+      "locale": "es",
+      "name": "enterprise-implementation",
+      "path": "/skills/es/enterprise-implementation/SKILL.md",
+      "bytes": 3834,
+      "sha256": "e7ebfaeba9dd4a16c2848f6722ac8742d836953b062cde5b9b3601da4211488e"
+    },
+    {
+      "locale": "es",
+      "name": "operations-intelligence",
+      "path": "/skills/es/operations-intelligence/SKILL.md",
+      "bytes": 3687,
+      "sha256": "a1ef4a0f72766a08fe640f1c506e8b933a81b023fe1f0af1f5793c326bdb202d"
+    },
+    {
+      "locale": "es",
+      "name": "agent-evaluation-qa",
+      "path": "/skills/es/agent-evaluation-qa/SKILL.md",
+      "bytes": 3954,
+      "sha256": "e930606c6a4521edbe1ac678ce0f6f29f725af5aad21d08c15d3d390b093250d"
+    },
+    {
+      "locale": "es",
+      "name": "ai-adoption-playbook",
+      "path": "/skills/es/ai-adoption-playbook/SKILL.md",
+      "bytes": 3827,
+      "sha256": "a38067fa04c1e905ad5ce3c5e9217a3946f1cb0b0227c387973f56bf0beec499"
+    }
+  ]
+}
