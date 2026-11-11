@@ -1,91 +1,96 @@
 {
-  "exportType": "source-grounded Markdown derivative",
-  "originalV1ZipParity": "unverified",
-  "llmBehaviorTest": "not run on these exports",
+  "version": "2.0.0",
+  "source": "QuantumLab Business Agent Skills V2 verified source package",
+  "downloadFormat": "SKILL.md",
+  "license": {
+    "path": "/Portfolio/skills/LICENSE.md",
+    "bytes": 599,
+    "sha256": "a3a8d5c9f9985f3fc11c01361b871e878df76832331ef0a91125779d65c5019d"
+  },
   "skills": [
     {
       "locale": "en",
-      "name": "ai-opportunity-mapper",
-      "path": "/skills/en/ai-opportunity-mapper/SKILL.md",
-      "bytes": 3472,
-      "sha256": "11da6fba419111e8450ec8639b24bdc4526f7cee1b33baad8495efb945af6b7e"
+      "name": "process-surgeon",
+      "path": "/Portfolio/skills/en/process-surgeon/SKILL.md",
+      "bytes": 3965,
+      "sha256": "c8f761dc1b64806efe13a471455821819759c9989f9eb435e45d5dbd1936ec9f"
     },
     {
       "locale": "en",
-      "name": "workflow-to-agent-blueprint",
-      "path": "/skills/en/workflow-to-agent-blueprint/SKILL.md",
-      "bytes": 3413,
-      "sha256": "c1149151a7d081c44b1aac97b2474b40bb12ddf73f0b7250d85e18892e21689d"
+      "name": "automation-architect",
+      "path": "/Portfolio/skills/en/automation-architect/SKILL.md",
+      "bytes": 3745,
+      "sha256": "76b0f45466a2e7252f4d6cf60d67881441be6fb827b8afd155ec963e7e8f6881"
     },
     {
       "locale": "en",
-      "name": "enterprise-implementation",
-      "path": "/skills/en/enterprise-implementation/SKILL.md",
-      "bytes": 3411,
-      "sha256": "9d0910d8b5fbbee220b204c910b6699c282b125004186d326b4fd2c948ada739"
+      "name": "cx-friction-finder",
+      "path": "/Portfolio/skills/en/cx-friction-finder/SKILL.md",
+      "bytes": 3773,
+      "sha256": "1ba913221d286bb73d410499d968017061b23a0d28acef598e2c22d84ee9eab3"
     },
     {
       "locale": "en",
-      "name": "operations-intelligence",
-      "path": "/skills/en/operations-intelligence/SKILL.md",
-      "bytes": 3316,
-      "sha256": "1b0e0d5f2e43a63f02acda409b8852fd1b8f5199d99b29bfb947566f2a33f1f4"
+      "name": "agent-inspector",
+      "path": "/Portfolio/skills/en/agent-inspector/SKILL.md",
+      "bytes": 3904,
+      "sha256": "5467e9884cbdd193da0bfee02187f56b58ea90e6d9f9c1438c577c7f51ab191a"
     },
     {
       "locale": "en",
-      "name": "agent-evaluation-qa",
-      "path": "/skills/en/agent-evaluation-qa/SKILL.md",
-      "bytes": 3610,
-      "sha256": "3b89a395cb4d21e8dc6b3644cc07b49718b2c428f66dec88b36b490dbe6c9960"
+      "name": "kpi-investigator",
+      "path": "/Portfolio/skills/en/kpi-investigator/SKILL.md",
+      "bytes": 3803,
+      "sha256": "84314a5dccc8769c45e171bb16f0d334ab9f95d2bdb11732116e2357e5208691"
     },
     {
       "locale": "en",
-      "name": "ai-adoption-playbook",
-      "path": "/skills/en/ai-adoption-playbook/SKILL.md",
-      "bytes": 3451,
-      "sha256": "1eb6f254e6ae64249cb3691bed9e5771a596ce210359238d864c40cb4c07a6f2"
+      "name": "solution-shaper",
+      "path": "/Portfolio/skills/en/solution-shaper/SKILL.md",
+      "bytes": 3650,
+      "sha256": "c9d6c5a5a91563bb979140a833b0c232bf759e780d53b44ed968928fdf99f96a"
     },
     {
       "locale": "es",
-      "name": "ai-opportunity-mapper",
-      "path": "/skills/es/ai-opportunity-mapper/SKILL.md",
-      "bytes": 3953,
-      "sha256": "f3f9e4ffdefa3d5821b60730e32b6df2cbf2fe6f42ac1fe2d0dbb200ff164f8d"
+      "name": "process-surgeon",
+      "path": "/Portfolio/skills/es/process-surgeon/SKILL.md",
+      "bytes": 4134,
+      "sha256": "4dea9d7ee0988c495bba7b23f009c4a2b2983fc8042d975a54a8bf2dcc7dbc35"
     },
     {
       "locale": "es",
-      "name": "workflow-to-agent-blueprint",
-      "path": "/skills/es/workflow-to-agent-blueprint/SKILL.md",
-      "bytes": 3853,
-      "sha256": "c7a92a04f12b42696930e00a73d0699a8291361f917a10a8b850d133e49cb5e4"
+      "name": "automation-architect",
+      "path": "/Portfolio/skills/es/automation-architect/SKILL.md",
+      "bytes": 3797,
+      "sha256": "9749996cea12e767ab22ba87b54d5e3ad22734810001f43b34d7c2fe903b858e"
     },
     {
       "locale": "es",
-      "name": "enterprise-implementation",
-      "path": "/skills/es/enterprise-implementation/SKILL.md",
-      "bytes": 3834,
-      "sha256": "e7ebfaeba9dd4a16c2848f6722ac8742d836953b062cde5b9b3601da4211488e"
+      "name": "cx-friction-finder",
+      "path": "/Portfolio/skills/es/cx-friction-finder/SKILL.md",
+      "bytes": 3686,
+      "sha256": "a1b3ce53ac2553aa701cd3e321091dff307396cc392176d95686a5f1f62e06c2"
     },
     {
       "locale": "es",
-      "name": "operations-intelligence",
-      "path": "/skills/es/operations-intelligence/SKILL.md",
-      "bytes": 3687,
-      "sha256": "a1ef4a0f72766a08fe640f1c506e8b933a81b023fe1f0af1f5793c326bdb202d"
+      "name": "agent-inspector",
+      "path": "/Portfolio/skills/es/agent-inspector/SKILL.md",
+      "bytes": 3883,
+      "sha256": "696ac707dd14c35d55a5cd3219df77631f709b2e45ff82bb5197075847050688"
     },
     {
       "locale": "es",
-      "name": "agent-evaluation-qa",
-      "path": "/skills/es/agent-evaluation-qa/SKILL.md",
-      "bytes": 3954,
-      "sha256": "e930606c6a4521edbe1ac678ce0f6f29f725af5aad21d08c15d3d390b093250d"
+      "name": "kpi-investigator",
+      "path": "/Portfolio/skills/es/kpi-investigator/SKILL.md",
+      "bytes": 3768,
+      "sha256": "35d91f0a1836ebfe2f2dab4c8160c4fa2ef66e3b58bee24fa27c8b24d6eefa7b"
     },
     {
       "locale": "es",
-      "name": "ai-adoption-playbook",
-      "path": "/skills/es/ai-adoption-playbook/SKILL.md",
-      "bytes": 3827,
-      "sha256": "a38067fa04c1e905ad5ce3c5e9217a3946f1cb0b0227c387973f56bf0beec499"
+      "name": "solution-shaper",
+      "path": "/Portfolio/skills/es/solution-shaper/SKILL.md",
+      "bytes": 3676,
+      "sha256": "b1b5ef5e823e013700cbca8ed971fc1673d9dc00a2906d8df120c613e8ed543e"
     }
   ]
 }
