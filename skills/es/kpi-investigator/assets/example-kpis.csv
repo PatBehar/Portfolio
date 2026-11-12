@@ -1,0 +1,5 @@
+period,metric,metric_type,numerator,denominator,source
+2026-W01,SLA,rate,180,200,synthetic training fixture
+2026-W02,SLA,rate,168,200,synthetic training fixture
+2026-W01,AHT,average,9000,200,synthetic training fixture
+2026-W02,AHT,average,10080,200,synthetic training fixture

@@ -1,0 +1,4 @@
+step_id,step,owner,cycle_minutes,wait_minutes,weekly_volume,source
+P1,Receive inquiry,Sales,4,3,120,synthetic training fixture
+P2,Validate record,Operations,6,12,120,synthetic training fixture
+P3,Approval,Manager,5,30,30,synthetic training fixture

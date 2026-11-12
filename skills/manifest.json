@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
-  "source": "QuantumLab Business Agent Skills V2 verified source package",
-  "downloadFormat": "SKILL.md",
+  "source": "QuantumLab Business Agent Skills V2 approved public release package",
+  "downloadFormat": "Standalone SKILL.md plus complete ZIP package",
   "license": {
     "path": "/Portfolio/skills/LICENSE.md",
-    "bytes": 599,
-    "sha256": "a3a8d5c9f9985f3fc11c01361b871e878df76832331ef0a91125779d65c5019d"
+    "bytes": 817,
+    "sha256": "f8a33ed3c1348d8ae34ec927bf32739dcbb4813832e823a1a8a165528e54aa11"
   },
   "skills": [
     {
@@ -91,6 +91,92 @@
       "path": "/Portfolio/skills/es/solution-shaper/SKILL.md",
       "bytes": 3676,
       "sha256": "b1b5ef5e823e013700cbca8ed971fc1673d9dc00a2906d8df120c613e8ed543e"
+    }
+  ],
+  "packages": [
+    {
+      "locale": "en",
+      "name": "quantumlab-agent-inspector-en-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-agent-inspector-en-v2.0.0.zip",
+      "bytes": 4627,
+      "sha256": "f974d2d95b0ecab0e79a57ff952dbf7fb18719fd4e4ca34afc0dafc52653f006"
+    },
+    {
+      "locale": "es",
+      "name": "quantumlab-agent-inspector-es-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-agent-inspector-es-v2.0.0.zip",
+      "bytes": 4570,
+      "sha256": "4c5712f0dd0ac9ec493e6edae86907291a3d0622a02a7688b07739834d42880e"
+    },
+    {
+      "locale": "en",
+      "name": "quantumlab-automation-architect-en-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-automation-architect-en-v2.0.0.zip",
+      "bytes": 4599,
+      "sha256": "aa6525c9fbfe07e507e503d33ef69d474b150a84559d415794c3dfb9854977ba"
+    },
+    {
+      "locale": "es",
+      "name": "quantumlab-automation-architect-es-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-automation-architect-es-v2.0.0.zip",
+      "bytes": 4627,
+      "sha256": "67e2df323a234e139f37ac94c133979484cefc4bbb68639640e77a0edbe47c18"
+    },
+    {
+      "locale": "en",
+      "name": "quantumlab-cx-friction-finder-en-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-cx-friction-finder-en-v2.0.0.zip",
+      "bytes": 4635,
+      "sha256": "7881046eb485c5d58e21ebc74e08f347916fe8ab35cf4c499fece967d165c615"
+    },
+    {
+      "locale": "es",
+      "name": "quantumlab-cx-friction-finder-es-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-cx-friction-finder-es-v2.0.0.zip",
+      "bytes": 4603,
+      "sha256": "275307fdc0f812ad25b0f83beab92a819bfdb303e6300bc25b3c40602ab2124e"
+    },
+    {
+      "locale": "en",
+      "name": "quantumlab-kpi-investigator-en-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-kpi-investigator-en-v2.0.0.zip",
+      "bytes": 6537,
+      "sha256": "25c5f83200261496f4437d608f98521dcc00e3203a5d21acb4579da5c6bb8ccc"
+    },
+    {
+      "locale": "es",
+      "name": "quantumlab-kpi-investigator-es-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-kpi-investigator-es-v2.0.0.zip",
+      "bytes": 6499,
+      "sha256": "3ea12004f09840989ca0214df9769e39dd3aa15c6872a6ce1a8d76db2268bc0c"
+    },
+    {
+      "locale": "en",
+      "name": "quantumlab-process-surgeon-en-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-process-surgeon-en-v2.0.0.zip",
+      "bytes": 6408,
+      "sha256": "1cf6d4008f288eb07751de3beb6bc3f3cddbe49a6a076ca60d92aacda0a42617"
+    },
+    {
+      "locale": "es",
+      "name": "quantumlab-process-surgeon-es-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-process-surgeon-es-v2.0.0.zip",
+      "bytes": 6515,
+      "sha256": "4158909d0c2713b36db8e7ff39dee5a9ea133af0c6469ae9fd1a2ddd2d867673"
+    },
+    {
+      "locale": "en",
+      "name": "quantumlab-solution-shaper-en-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-solution-shaper-en-v2.0.0.zip",
+      "bytes": 4492,
+      "sha256": "0394932c4231f8ec8313abd883058e3e02270aad77136dcbcfca209ca3745baf"
+    },
+    {
+      "locale": "es",
+      "name": "quantumlab-solution-shaper-es-v2.0.0.zip",
+      "path": "/Portfolio/assets/business-agent-skills/quantumlab-solution-shaper-es-v2.0.0.zip",
+      "bytes": 4483,
+      "sha256": "76a1df9e68a52626a3f3ceeffb92c81c1d47eb1ac0c5293a0f5507778bb4d7a4"
     }
   ]
 }
